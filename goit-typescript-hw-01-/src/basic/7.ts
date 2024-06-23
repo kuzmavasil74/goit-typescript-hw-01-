@@ -3,10 +3,7 @@ type Page = {
   likes: number
   accounts: string[]
   status: 'open' | 'close'
-  details: {
-    createAt: Date
-    updateAt: Date
-  }
+  details?: {}
 }
 
 const page1 = {
